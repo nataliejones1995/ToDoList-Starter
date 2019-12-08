@@ -28,12 +28,16 @@ class ToDoDetailsViewController: UIViewController {
     
     var toDoItem: Task!
     
-    
+    let message = "hello world"
+
     var toDoIndex: Int!
     
     weak var delegate: ToDoListDelegate?
 
     override func viewDidLoad() {
+        
+        
+        print(message)
         super.viewDidLoad()
         
         taskTitleLabel.text = toDoItem.name

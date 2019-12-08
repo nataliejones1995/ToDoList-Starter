@@ -11,6 +11,7 @@
 		1E16F197239C327800FF021E /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E16F195239C327800FF021E /* Realm.framework */; };
 		1E16F198239C327800FF021E /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E16F195239C327800FF021E /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1E16F19A239C327900FF021E /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E16F196239C327800FF021E /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1E8ABDBF239DA7E30024807A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8ABDBE239DA7E30024807A /* LoginViewController.swift */; };
 		E1A2C07C21AEF8170091E41F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2C07B21AEF8170091E41F /* AppDelegate.swift */; };
 		E1A2C08121AEF8170091E41F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A2C07F21AEF8170091E41F /* Main.storyboard */; };
 		E1A2C08321AEF81B0091E41F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A2C08221AEF81B0091E41F /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		1E16F192239C325900FF021E /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../realm-swift-4.1.1/ios/swift-10.3/Realm.framework"; sourceTree = "<group>"; };
 		1E16F195239C327800FF021E /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		1E16F196239C327800FF021E /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		1E8ABDBE239DA7E30024807A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E1A2C07821AEF8170091E41F /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A2C07B21AEF8170091E41F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1A2C08021AEF8170091E41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		E1A2C07A21AEF8170091E41F /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				1E8ABDBE239DA7E30024807A /* LoginViewController.swift */,
 				E1A2C07B21AEF8170091E41F /* AppDelegate.swift */,
 				E1A2C07F21AEF8170091E41F /* Main.storyboard */,
 				E1A2C09321AF07410091E41F /* AddTaskViewController.swift */,
@@ -183,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E8ABDBF239DA7E30024807A /* LoginViewController.swift in Sources */,
 				E1A2C09221AF01770091E41F /* ToDoItemModel.swift in Sources */,
 				E1A2C09021AEFBDB0091E41F /* ToDoDetailsViewController.swift in Sources */,
 				E1A2C08E21AEFBA00091E41F /* ToDoListViewController.swift in Sources */,
